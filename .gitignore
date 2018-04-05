@@ -1,0 +1,14 @@
+# eclipse
+/.classpath
+/.project
+/.settings
+
+# idea
+**/*.iml
+**/.idea
+
+# compile
+/target
+
+# winmerge
+**/*.bak

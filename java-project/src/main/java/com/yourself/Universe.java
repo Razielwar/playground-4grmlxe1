@@ -6,12 +6,9 @@ import java.util.Arrays;
 public class Universe {
 // }
 
-public static int countAllStars(int... galaxies) {
-	int totalStars = 0;
-	for(int stars : galaxies) {
-		totalStars = stars; // fix me!
-	} 
-	return totalStars;
+public static int countAllStars(int... stars) {
+	// let's try using streams!
+	return 0;
 }
 
 //{ autofold
