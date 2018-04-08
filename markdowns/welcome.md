@@ -6,3 +6,6 @@ This playground is dedicated to java developers to quickly practice with the Jav
 
 @[Luke, how many stars are there in these galaxies?]({"stubs": ["src/main/java/com/razielwar/streams/Universe.java"], "command": "com.razielwar.streams.UniverseTest#test"})
 
+# Stream Creation
+
+@[Could you provide me a stream of my friends? Anakin Skywalker, Luke Skywalker, Leia Organa, Han Solo, Obi-wan Kenobi]({"stubs": ["src/main/java/com/razielwar/streams/Universe.java"], "command": "com.razielwar.streams.StreamCreationTest#test"})
