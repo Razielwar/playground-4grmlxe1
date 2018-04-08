@@ -8,4 +8,4 @@ This playground is dedicated to java developers to quickly practice with the Jav
 
 # Stream Creation
 
-@[Could you provide me a stream of my friends? Anakin Skywalker, Luke Skywalker, Leia Organa, Han Solo, Obi-wan Kenobi]({"stubs": ["src/main/java/com/razielwar/streams/Universe.java"], "command": "com.razielwar.streams.StreamCreationTest#test"})
+@[Could you provide me a stream of my friends? \n -> Anakin Skywalker, Luke Skywalker, Leia Organa, Han Solo, Obi-wan Kenobi]({"stubs": ["src/main/java/com/razielwar/streams/StreamCreation.java"], "command": "com.razielwar.streams.StreamCreationTest#test"})
