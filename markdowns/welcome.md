@@ -2,7 +2,7 @@
 
 This playground is dedicated to java developers to quickly practice with the Java 8 Streams API.
 
-# Hands-on Demo
+# Give it a try
 
-@[Luke, how many stars are there in these galaxies?]({"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
+@[Luke, how many stars are there in these galaxies?]({"stubs": ["src/main/java/com/razielwar/streams/Universe.java"], "command": "com.razielwar.streams.UniverseTest#test"})
 
