@@ -13,7 +13,7 @@ You will have to create and manipulate a String Stream.
 Here's the content of the first stream to create:
 Anakin Skywalker, Luke Skywalker, Leia Organa, Han Solo, Obi-wan Kenobi
 
-@[Could you provide a stream containing the previous names?] ({"stubs": ["src/main/java/com/razielwar/streams/StreamCreation.java"], "command": "com.razielwar.streams.StreamCreationTest#test"})
+@[Could you provide a stream containing the previous names?]({"stubs": ["src/main/java/com/razielwar/streams/StreamCreation.java"], "command": "com.razielwar.streams.StreamCreationTest#test"})
 
 Now it is time to manipulate it!
 
