@@ -22,10 +22,10 @@ public class NamesFilteredTest {
             String namesFiltered = names.stream()
                     .filter(s -> s.contains("-"))
                     .sorted()
-                    .collect(Collectors.joining(",", "{", "}"));
+                    .collect(Collectors.joining(", ", "{", "}"));
             String result = NamesFiltered.filterCompoundNamesDescSorted(names);
             Assert.assertNotNull("Result should not be null", result);
-            Assert.assertEquals("String should be equals to " + namesFiltered, namesFiltered, result);
+            Assert.assertEquals(namesFiltered, result);
             success(true);
 
             if (existsInFile("Collectors.joining(\",\", \"[\", \"]\")", FILE_NAME)) {

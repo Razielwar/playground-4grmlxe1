@@ -24,8 +24,7 @@ public class NamesToUppercaseTest {
             String namesToUpper = names.stream().map(String::toUpperCase).sorted().collect(Collectors.joining(","));
             Stream<String> result = NamesToUppercase.toUppercaseSorted(names);
             Assert.assertNotNull("Stream should not be null", result);
-            Assert.assertEquals("Stream should contains the following names : " + namesToUpper,
-                    namesToUpper,
+            Assert.assertEquals(namesToUpper,
                     result.collect(Collectors.joining(",")));
             success(true);
 

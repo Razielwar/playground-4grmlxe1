@@ -2,10 +2,10 @@ title : Java 8 Streams - Practice
 
 # Table of content
 plan:
-  - title: Welcome # Set the page title (only displayed if your contribution has several pages)
-    statement: markdowns/welcome.md # Set the file path to the page content
-#  - title: Another Page
-#    statement: markdowns/another-page.md
+  - title: Java 8 Streams - Practice - Part 1 / 2 # Set the page title (only displayed if your contribution has several pages)
+    statement: markdowns/javaStreamsPart1.md # Set the file path to the page content
+  - title: Java 8 Streams - Practice - Part 2 / 2
+    statement: markdowns/javaStreamsPart2.md
 
 
 # Settings for your programming projects and the associated Docker images
