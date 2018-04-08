@@ -17,4 +17,8 @@ Anakin Skywalker, Luke Skywalker, Leia Organa, Han Solo, Obi-wan Kenobi
 
 Now it is time to manipulate it!
 
+@[Could you convert these names in an uppercase sorted stream?]({"stubs": ["src/main/java/com/razielwar/streams/StreamCreation.java"], "command": "com.razielwar.streams.StreamCreationTest#test"})
 
+And now why not collecting the stream to provide a useful data?
+
+@[Could you return a string containing only compound names sorted formated as follow {name1, ..., ..nameN}?]({"stubs": ["src/main/java/com/razielwar/streams/StreamCreation.java"], "command": "com.razielwar.streams.StreamCreationTest#test"})
