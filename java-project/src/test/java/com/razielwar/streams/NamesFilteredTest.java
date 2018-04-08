@@ -33,9 +33,9 @@ public class NamesFilteredTest {
             } else if (existsInFile("stream(", FILE_NAME)) {
                 msg("You're a padawan. 🌟", "Well done but you could use joining with prefix and suffix");
                 msg("You're a padawan. 🌟", "");
-                msg("You're a padawan. 🌟", "String namesFiltered = names.stream()\n");
-                msg("You're a padawan. 🌟", ".filter(s -> s.contains(\"-\"))\n");
-                msg("You're a padawan. 🌟", ".collect(Collectors.joining(\",\", \"{\", \"}\"));");
+                msg("You're a padawan. 🌟", "String namesFiltered = names.stream()");
+                msg("You're a padawan. 🌟", ".filter(s -> s.contains(\"-\"))");
+                msg("You're a padawan. 🌟", ".collect(Collectors.joining(\", \", \"{\", \"}\"));");
             } else {
                 msg("You're a rookie. ☠", "You should try using streams!");
             }
