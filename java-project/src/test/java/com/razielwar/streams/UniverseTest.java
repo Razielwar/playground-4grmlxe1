@@ -11,10 +11,13 @@ import java.util.Scanner;
 import org.junit.Assert;
 import org.junit.Test;
 
+import static com.razielwar.utils.Command.existsInFile;
 import static com.razielwar.utils.Command.msg;
 import static com.razielwar.utils.Command.success;
 
 public class UniverseTest {
+
+	private static final String FILE_NAME = "./src/main/java/com/razielwar/streams/Universe.java";
 
 	@Test
 	public void test() throws FileNotFoundException {
@@ -23,7 +26,7 @@ public class UniverseTest {
 			Assert.assertEquals("Running Universe.countAllStars(9, -3)...", 6, Universe.countAllStars(9, -3));
 			success(true);
 
-			if (existsInFile("Arrays.stream(galaxies).sum()", "./src/main/java/com/yourself/Universe.java")) {
+			if (existsInFile("Arrays.stream(galaxies).sum()", FILE_NAME) || existsInFile("stream(", FILE_NAME)) {
 				msg("My personal Yoda, you are. 🙏", "* ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • ");
 				msg("My personal Yoda, you are. 🙏", "           　★ °  ☆ ¸. ¸ 　★　 :.　 .   ");
 				msg("My personal Yoda, you are. 🙏", "__.-._     ° . .　　　　.　☾ ° 　. *   ¸ .");
@@ -41,13 +44,4 @@ public class UniverseTest {
 		}
 	}
 
-
-	// check if a string exists in a text file
-	private static boolean existsInFile(String str, String fileName) throws FileNotFoundException {
-		try {
-			return Files.lines(Paths.get(fileName)).anyMatch(line -> line.contains(str));
-		} catch (IOException e) {
-			throw new UncheckedIOException(e);
-		}
-	}
 }
